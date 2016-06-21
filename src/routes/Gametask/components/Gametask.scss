@@ -1,0 +1,39 @@
+.GametaskBody {
+  background-color: skyblue;
+  height:500px;
+}
+
+.square{
+  display: block;
+	height: 70px;
+  width: 70px;
+  margin: 1.5rem auto;
+}
+
+.tree {
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  margin-left: 130px;
+  margin-top: -180px;
+} 
+
+.stone {
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  margin-left: -230px;
+  margin-top: 140px;
+}
+
+.gift{
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  margin-left: 190px;
+  margin-top: 181px;
+}
+
