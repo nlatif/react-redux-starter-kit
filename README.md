@@ -80,7 +80,7 @@ While developing, you will probably rely mostly on `npm start`; however, there a
 |`lint:fix`|Lint and fix all `.js` files. [Read more on this](http://eslint.org/docs/user-guide/command-line-interface.html#fix).|
 
 ##Example
-##Find the Hidden Object
+#Find the Hidden Object
 This example is a simple web application implementation of react-redux. Presently, a one player game, where the player (represented by a submarine) has to locate hidden objects under the ocean. Navigation through the game screen is with the arrow keys. On finding the object, the player sees a 'good job notification' and can hit the 'play' button to find which object to locate next. The game was built with kids as the target audience and to understand and comprehend react-redux. 
 Also includes tests.
 
