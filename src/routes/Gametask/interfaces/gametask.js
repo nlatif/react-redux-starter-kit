@@ -9,6 +9,7 @@ export type GametaskStateObject = {
   current: ?number,
   left: ?number,
   top: ?number,
+  scale: ?number,
   offsetLeft: ?number,
   offsetTop: ?number,
   playing: boolean,

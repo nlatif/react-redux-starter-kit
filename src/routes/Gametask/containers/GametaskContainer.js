@@ -14,7 +14,8 @@ const mapActionCreators: {startGame: Function, handleKeyDown: Function} = {
 const mapStateToProps = (state): { gametask: ?GametaskObject } => ({
   gametask: state.gametask.gametasks.find(gametask => gametask.id === state.gametask.current),
   left: state.gametask.gametasks.find(gametask => gametask.left === state.gametask.left),
-  top: state.gametask.gametasks.find(gametask => gametask.top === state.gametask.top)
+  top: state.gametask.gametasks.find(gametask => gametask.top === state.gametask.top),
+  scale: state.gametask.gametasks.find(gametask => gametask.scale === state.gametask.scale)
 })
 
 export default connect(mapStateToProps, mapActionCreators)(Gametask)
