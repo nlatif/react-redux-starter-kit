@@ -79,6 +79,17 @@ While developing, you will probably rely mostly on `npm start`; however, there a
 |`lint`|Lint all `.js` files.|
 |`lint:fix`|Lint and fix all `.js` files. [Read more on this](http://eslint.org/docs/user-guide/command-line-interface.html#fix).|
 
+##Example
+##Find the Hidden Object
+This example is a simple web application implementation of react-redux. Presently, a one player game, where the player (represented by a submarine) has to locate hidden objects under the ocean. Navigation through the game screen is with the arrow keys. On finding the object, the player sees a 'good job notification' and can hit the 'play' button to find which object to locate next. The game was built with kids as the target audience and to understand and comprehend react-redux. 
+Also includes tests.
+
+Possible Future work: 
+Navigation through any input device.
+Animating hidden objects.
+Animating various aspects of the game.
+And Include more than 1 player.
+
 ## Application Structure
 
 The application structure presented in this boilerplate is **fractal**, where functionality is grouped primarily by feature rather than file type. Please note, however, that this structure is only meant to serve as a guide, it is by no means prescriptive. That said, it aims to represent generally accepted guidelines and patterns for building scalable applications. If you wish to read more about this pattern, please check out this [awesome writeup](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure) by [Justin Greenberg](https://github.com/justingreenberg).
